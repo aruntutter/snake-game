@@ -20,8 +20,8 @@
   --clr-dark: #001d3d;
 
   /* Font Family */
-  --ff-heading: font-family: 'Bebas Neue', sans-serif;
-  --ff-texts: font-family: 'Saira Condensed', sans-serif;
+  --ff-heading: 'Bebas Neue', sans-serif;
+  --ff-texts: 'Saira Condensed', sans-serif;
 }
 
 html {
@@ -31,7 +31,9 @@ html {
 
 body {
   font-family: var(--ff-texts);
-  background-color: #fff;
+  background-color: var(--clr-dark);
+
+  text-align: center;
 }
 
 /* global css */
@@ -44,19 +46,37 @@ li {
   list-style: none;
 }
 
-.btn {
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.5rem 1.5rem;
-  margin-top: 0.5rem;
-  text-transform: capitalize;
-  font-size: 1.2rem;
-  font-weight: 500;
-  cursor: pointer;
-  /* customize */
-  background-color: #1c2042;
-  color: white;
-  border: 2px solid #1c2042;
+/* Custom CSS */
+
+h2 {
+  color: var(--clr-orange);
+
+  font-family: var(--ff-heading);
+  font-size: 2rem;
+
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  margin: 1.5rem auto;
+}
+
+#msg {
+  font-size: 1.1rem;
+  font-family: var(--ff-texts);
+
+  margin-bottom: 1rem;
+  color: var(--clr-white);
+}
+
+#gameboard {
+  border: 3px solid var(--clr-orange);
+}
+
+#score {
+  font-size: 1.1rem;
+  font-family: var(--ff-texts);
+
+  color: var(--clr-white);
+  margin-top: 1rem;
 }
 
 /* MEDIA QUERY */
