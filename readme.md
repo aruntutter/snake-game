@@ -23,7 +23,7 @@ SerpentCraft is a web-based Snake game developed using HTML, CSS, and JavaScript
 
 ## Screenshot
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](./assets/images/screenshot.png)
 
 ## Demo
 
