@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;500&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --ff-heading: font-family: 'Bebas Neue', sans-serif;
+  --ff-texts: font-family: 'Saira Condensed', sans-serif;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-texts);
+  background-color: #fff;
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  /* customize */
+  background-color: #1c2042;
+  color: white;
+  border: 2px solid #1c2042;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 576px) {}
