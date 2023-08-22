@@ -67,7 +67,7 @@ h2 {
   color: var(--clr-white);
 }
 
-#gameboard {
+#gameBoard {
   border: 3px solid var(--clr-orange);
 }
 
