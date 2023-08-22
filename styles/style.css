@@ -12,6 +12,14 @@
 }
 
 :root {
+  /* Colors */
+  --clr-turquoise: #48cae4;
+  --clr-black: #000000;
+  --clr-white: #ffffff;
+  --clr-orange: #fca311;
+  --clr-dark: #001d3d;
+
+  /* Font Family */
   --ff-heading: font-family: 'Bebas Neue', sans-serif;
   --ff-texts: font-family: 'Saira Condensed', sans-serif;
 }
@@ -27,12 +35,6 @@ body {
 }
 
 /* global css */
-img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-  object-fit: contain;
-}
 
 a {
   text-decoration: none;
